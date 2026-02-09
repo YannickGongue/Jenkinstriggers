@@ -7,7 +7,7 @@ pipeline{
             }
         }
 	stage('build'){
-	  step{
+	  steps{
 	       sh 'echo "new change commited"'
 	       }
         }
