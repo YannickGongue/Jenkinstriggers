@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage('Webhook Test'){
             steps{
-                sh 'echo "Github Webhook Trigger Worked"'
+                sh 'echo "Github Webhook Trigger Worked this time"'
             }
         }
 
